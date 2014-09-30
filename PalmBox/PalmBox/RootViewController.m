@@ -158,7 +158,15 @@ static SystemSoundID shake_sound_male_id = 0;
         {
             [_session beginConfiguration];
             [_device lockForConfiguration:nil];
+            //开启手电筒
             [_device setTorchMode:AVCaptureTorchModeOn];
+            //开启补光灯
+            /**
+             AVCaptureFlashModeOff  = 0,
+             AVCaptureFlashModeOn   = 1,
+             AVCaptureFlashModeAuto = 2
+             */
+            [_device setFlashMode:AVCaptureFlashModeOn];
             /*
              设置对焦模式 一共三种
              AVCaptureFocusModeLocked              = 0,
