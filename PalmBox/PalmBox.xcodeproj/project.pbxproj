@@ -27,7 +27,7 @@
 		637A6CAF19D990D200DED4F4 /* PalmBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A6CAE19D990D200DED4F4 /* PalmBoxTests.m */; };
 		637A6CBB19D990EA00DED4F4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A6CB919D990EA00DED4F4 /* RootViewController.m */; };
 		637A6CBC19D990EA00DED4F4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637A6CBA19D990EA00DED4F4 /* RootViewController.xib */; };
-		7EF8D3AF19DA8E34008D7F83 /* palmPrint-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8D3AE19DA8E34008D7F83 /* palmPrint-568@2x.png */; };
+		7E10014419DA9492004D0098 /* palmPrint-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E10014319DA9492004D0098 /* palmPrint-568@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		637A6CB819D990EA00DED4F4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		637A6CB919D990EA00DED4F4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		637A6CBA19D990EA00DED4F4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		7EF8D3AE19DA8E34008D7F83 /* palmPrint-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "palmPrint-568@2x.png"; sourceTree = "<group>"; };
+		7E10014319DA9492004D0098 /* palmPrint-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "palmPrint-568@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +97,11 @@
 		632FD88919D991A7000453DE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7E10014319DA9492004D0098 /* palmPrint-568@2x.png */,
 				632FD88A19D991BA000453DE /* bompart-568h@2x.png */,
 				632FD88B19D991BA000453DE /* toppart-568h@2x.png */,
 				632FD89219D99F99000453DE /* scanninglineW.png */,
 				632FD89419D9A393000453DE /* palmPrint-568h@2x.png */,
-				7EF8D3AE19DA8E34008D7F83 /* palmPrint-568@2x.png */,
 				632FD88E19D991C9000453DE /* open.wav */,
 			);
 			name = Resource;
@@ -257,12 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF8D3AF19DA8E34008D7F83 /* palmPrint-568@2x.png in Resources */,
 				632FD88F19D991C9000453DE /* open.wav in Resources */,
 				632FD89519D9A393000453DE /* palmPrint-568h@2x.png in Resources */,
 				637A6C9419D990D200DED4F4 /* InfoPlist.strings in Resources */,
 				632FD88D19D991BA000453DE /* toppart-568h@2x.png in Resources */,
 				632FD88C19D991BA000453DE /* bompart-568h@2x.png in Resources */,
+				7E10014419DA9492004D0098 /* palmPrint-568@2x.png in Resources */,
 				632FD89319D99F99000453DE /* scanninglineW.png in Resources */,
 				637A6C9C19D990D200DED4F4 /* Images.xcassets in Resources */,
 				637A6CBC19D990EA00DED4F4 /* RootViewController.xib in Resources */,

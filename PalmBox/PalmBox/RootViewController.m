@@ -74,7 +74,7 @@ static SystemSoundID shake_sound_male_id = 0;
 - (void)layoutPalm
 {
     UIImageView * imageView = [[UIImageView alloc]initWithFrame:self.view.bounds];
-    imageView.image = [UIImage imageNamed:@"palmPrint-568h@2x"];
+    imageView.image = [UIImage imageNamed:@"palmPrint-568@2x"];
     [self.view addSubview:imageView];
     
     upOrdown = NO;
